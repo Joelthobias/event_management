@@ -194,3 +194,26 @@ a:hover{
 .md-display {
     display: block;
 }
+a.whatsapp {
+    bottom: 2rem;
+    right: 2rem;
+    position: fixed;
+    height: 50px;
+    width: 50px;
+}
+
+
+
+
+footer{
+    height: 23rem;
+    width: 100%;
+    background-color: #ecd193;
+    padding-top: 2rem;
+}
+.footer{
+    margin: 4rem;
+}
+.footer>div>small{
+    letter-spacing: 1px;
+}
