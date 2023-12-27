@@ -89,7 +89,8 @@ a:hover {
     font-size: 80px;
     line-height: 80px;
     letter-spacing: -1px;
-    text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3);
+    text-shadow: 0px 1px 5px rgb(0 0 0 / 83%);
+    text-transform: capitalize;
 }
 
 .slide-text-3 {
@@ -142,14 +143,14 @@ a:hover {
         background-size: cover;
     }
 
-    .slide-text {
-        color: #FFFFFF;
-        font-size: 43px;
-        font-weight: bold;
-        line-height: 40px;
-        letter-spacing: -1px;
-        text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3);
-    }
+        .slide-text {
+            color: #FFFFFF;
+            font-size: 28PX;
+            font-weight: bold;
+            line-height: 40px;
+            letter-spacing: -1px;
+            text-shadow: 0px 1px 5px rgb(0 0 0 / 83%);
+        }
 
     .carousel-caption {
         position: absolute;
