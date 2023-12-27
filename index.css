@@ -276,6 +276,19 @@ a:hover {
     }
 }
 
+#reviews>h1{
+    font-size: 2.5em;
+    font-weight: 900;
+    text-align: center;
+}
+.card-img-top {
+    width: 42px;
+    height: 42px;
+    margin: auto;
+}
+.card-text{
+    font-size: 0.9rem;
+}
 a.whatsapp {
     bottom: 2rem;
     right: 2rem;
