@@ -6,6 +6,10 @@
     flex-direction: row;
     justify-content: center;
 }
+.bg-light {
+    --bs-bg-opacity: 1;
+    background-color: #ffff !important;
+}
 @-webkit-keyframes zoom {
     from {
         -webkit-transform: scale(1, 1);
@@ -86,7 +90,7 @@ a:hover {
 .slide-text {
     font-weight: bold;
     color: #FFFFFF;
-    font-size: 68px;
+    font-size: 50px;
     line-height: 80px;
     letter-spacing: -1px;
     text-shadow: 0px 1px 5px rgb(0 0 0 / 83%);
@@ -143,14 +147,14 @@ a:hover {
         background-size: cover;
     }
 
-        .slide-text {
-            color: #FFFFFF;
-            font-size: 28PX;
-            font-weight: bold;
-            line-height: 40px;
-            letter-spacing: -1px;
-            text-shadow: 0px 1px 5px rgb(0 0 0 / 83%);
-        }
+    .slide-text {
+        color: #FFFFFF;
+        font-size: 28PX;
+        font-weight: bold;
+        line-height: 40px;
+        letter-spacing: -1px;
+        text-shadow: 0px 1px 5px rgb(0 0 0 / 83%);
+    }
 
     .carousel-caption {
         position: absolute;
@@ -171,10 +175,16 @@ a:hover {
         font-weight: 500;
         letter-spacing: 1px;
     }
+
 }
 
 @media(max-width:512px) {
-
+    .ser3 {
+        margin: 0rem 1rem 6rem !important;
+    }
+    .ser2 {
+        margin: 3rem 1rem 0  !important;
+    }
 
     .slide-text {
         color: #FFFFFF;
@@ -192,6 +202,10 @@ a:hover {
         font-weight: 500;
         letter-spacing: 1px;
     }
+
+    .my-6 {
+        margin: 5em 0 ;
+    }
 }
 
 .carousel-caption {
@@ -208,9 +222,10 @@ a:hover {
 
 /* services css */
 
-.my-6{
+.my-6 {
     margin: 5em 0;
 }
+
 .ser1 {
     background-image: url(./images/service.jpg);
     height: 25em;
@@ -245,6 +260,13 @@ a:hover {
     font-size: 2rem;
     font-weight: bolder;
 }
+.ser2{
+    margin: 5rem 0 ;
+}
+
+.ser3{
+    margin: 5rem 0;
+}
 
 .services>div>img {
     height: 4rem;
@@ -276,19 +298,22 @@ a:hover {
     }
 }
 
-#reviews>h1{
+#reviews>h1 {
     font-size: 2.5em;
     font-weight: 900;
     text-align: center;
 }
+
 .card-img-top {
     width: 42px;
     height: 42px;
     margin: auto;
 }
-.card-text{
+
+.card-text {
     font-size: 0.9rem;
 }
+
 a.whatsapp {
     bottom: 2rem;
     right: 2rem;
@@ -308,9 +333,7 @@ footer {
     padding-bottom: 21px;
 }
 
-.footer {
-
-}
+.footer {}
 
 .footer>div>small {
     letter-spacing: 1px;
