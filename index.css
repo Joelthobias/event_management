@@ -338,3 +338,6 @@ footer {
 .footer>div>small {
     letter-spacing: 1px;
 }
+.services div p:hover{
+    color: orange !important;
+}
