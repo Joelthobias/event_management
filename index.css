@@ -341,3 +341,9 @@ footer {
 .services div p:hover{
     color: orange !important;
 }
+.card{
+    border: none;
+}
+.btn:focus {
+    outline: none;
+}
