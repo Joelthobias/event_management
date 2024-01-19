@@ -6,10 +6,12 @@
     flex-direction: row;
     justify-content: center;
 }
+
 .bg-light {
     --bs-bg-opacity: 1;
     background-color: #ffff !important;
 }
+
 @-webkit-keyframes zoom {
     from {
         -webkit-transform: scale(1, 1);
@@ -182,8 +184,9 @@ a:hover {
     .ser3 {
         margin: 0rem 1rem 6rem !important;
     }
+
     .ser2 {
-        margin: 3rem 1rem 0  !important;
+        margin: 3rem 1rem 0 !important;
     }
 
     .slide-text {
@@ -204,7 +207,7 @@ a:hover {
     }
 
     .my-6 {
-        margin: 5em 0 ;
+        margin: 5em 0;
     }
 }
 
@@ -260,11 +263,12 @@ a:hover {
     font-size: 2rem;
     font-weight: bolder;
 }
-.ser2{
-    margin: 5rem 0 ;
+
+.ser2 {
+    margin: 5rem 0;
 }
 
-.ser3{
+.ser3 {
     margin: 5rem 0;
 }
 
@@ -338,13 +342,24 @@ footer {
 .footer>div>small {
     letter-spacing: 1px;
 }
-.services div p:hover{
+
+.services div p:hover {
     color: orange !important;
 }
-.card{
+
+.card {
     border: none;
 }
-.btn:focus,.btn:active {
+
+.btn:focus,
+.btn:active {
     outline: none;
     box-shadow: none;
+}
+
+.gallary {
+    justify-content: center !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
