@@ -50,6 +50,7 @@ textarea {
     -webkit-animation: zoom 20s;
     animation: zoom 20s;
     width: 80%;
+    height: 85vh;
 }
 
 .motto {
@@ -139,6 +140,9 @@ a:hover {
 }
 
 @media(max-width:995px) {
+    .services{
+        margin-top: 0 !important;
+    }
     .sm-display {
         display: block !important;
     }
@@ -220,6 +224,9 @@ a:hover {
     }
 }
 
+.services{
+     margin-top: -5rem;
+}
 .carousel-caption {
     text-shadow: 0px 1px 5px rgb(65 53 53);
 }
