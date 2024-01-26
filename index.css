@@ -228,8 +228,8 @@ a:hover {
         margin: 5em 0;
     }
 
-    .ser2>h3,
-    .ser3>h3 {
+    .ser2 div h2,
+    .ser3 div h2  {
         margin-right: 0rem !important;
         padding: 2rem 0 !important;
     }
@@ -276,7 +276,7 @@ a:hover {
     flex-direction: column;
 }
 
-.serv1>h3 {
+.serv1 h3 {
     color: burlywood;
     font-size: 2rem;
     font-family: sans-serif;
@@ -300,14 +300,7 @@ a:hover {
     flex-shrink: 0;
 }
 
-.ser2>h3,
-.ser3>h3 {
-    font-size: 2rem;
-    font-weight: bolder;
-    margin-right: 10rem;
-    padding: 2rem;
-    display: block !important;
-}
+
 
 .ser2 {
     padding: 0 !important;
@@ -334,15 +327,6 @@ a:hover {
 
     .my-6 {
         margin: 5em 3rem;
-    }
-
-    .ser2>h3,
-    .ser3>h3 {
-        font-size: 2rem;
-        font-weight: bolder;
-        margin-right: 2rem;
-        padding: 2rem;
-        display: block !important;
     }
 }
 
@@ -419,7 +403,7 @@ footer {
     flex-shrink: 0;
 }
 
-.services h3 {
+.services h2 {
     color: #212529;
     font-family: Poppins;
     font-size: 32px;
