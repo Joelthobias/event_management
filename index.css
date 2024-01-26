@@ -147,9 +147,7 @@ a:hover {
 }
 
 @media(max-width:995px) {
-    .services {
-        margin-top: 0 !important;
-    }
+
 
     .sm-display {
         display: block !important;
@@ -197,6 +195,10 @@ a:hover {
 }
 
 @media(max-width:512px) {
+    .services {
+        width: 100% !important;
+    }
+
     .ser3 {
         margin: 0rem 1rem 6rem !important;
     }
@@ -233,9 +235,7 @@ a:hover {
     }
 }
 
-.services {
-    margin-top: -5rem;
-}
+
 
 .carousel-caption {
     text-shadow: 0px 1px 5px rgb(65 53 53);
@@ -269,10 +269,11 @@ a:hover {
     top: 9rem;
     right: 10px;
     text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3);
-    flex-wrap: wrap;
     align-content: center;
     justify-content: flex-end;
     align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .serv1>h3 {
@@ -292,11 +293,11 @@ a:hover {
     line-height: 28px;
     letter-spacing: -1px;
     display: flex;
-        width: 202px;
-        height: 33px;
-        flex-direction: column;
-        justify-content: center;
-        flex-shrink: 0;
+    width: 202px;
+    height: 33px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
 }
 
 .ser2>h3,
@@ -309,7 +310,6 @@ a:hover {
 }
 
 .ser2 {
-    margin: 5rem 0;
     padding: 0 !important;
 }
 
@@ -330,13 +330,7 @@ a:hover {
 
 
 @media(max-width:992px) {
-    .serv1 {
-        position: relative;
-        top: 9rem;
-        right: 10px;
-        text-align: center;
-        text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3);
-    }
+
 
     .my-6 {
         margin: 5em 3rem;
@@ -416,9 +410,9 @@ footer {
 
 .services {
     display: flex;
-    width: 361px;
+    width: 50%;
     height: 385px;
-    padding: 32px 28px ;
+    padding: 32px 28px;
     flex-direction: column;
     align-items: flex-start;
     gap: 32px;
