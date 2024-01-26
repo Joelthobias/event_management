@@ -1,6 +1,6 @@
 @import url(https://db.onlinewebfonts.com/c/bf22f52cfc674483497479ac321caa1b?family=New+Yorker+W01+Type+Regular);
 *{
-    
+    font-family: serif;
 }
 .rows {
     display: flex;
@@ -8,7 +8,9 @@
     flex-direction: row;
     justify-content: center;
 }
-
+.carousel-caption h2,.carousel-caption p{
+    font-family: "New Yorker W01 Type Regular" !important;
+}
 .bg-light {
     --bs-bg-opacity: 1;
     background-color: #ffff !important;
@@ -193,7 +195,7 @@ a:hover {
 
     .slide-text {
         color: #FFFFFF;
-        font-size: 32px;
+        font-size: 22px;
         font-weight: bold;
         line-height: 40px;
         letter-spacing: -1px;
