@@ -1,5 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
-
+@import url(https://db.onlinewebfonts.com/c/bf22f52cfc674483497479ac321caa1b?family=New+Yorker+W01+Type+Regular);
+*{
+    
+}
 .rows {
     display: flex;
     flex-wrap: wrap;
@@ -36,7 +38,7 @@ body,
 button,
 input,
 textarea {
-    font-family: 'Poppins', sans-serif;
+    font-family: "New Yorker W01 Type Regular";
     line-height: 1.5;
     text-rendering: optimizeLegibility;
     font-weight: 400;
@@ -209,6 +211,11 @@ a:hover {
     .my-6 {
         margin: 5em 0;
     }
+    .ser2>h3,
+    .ser3>h3 {
+        margin-right: 0rem !important;
+        padding: 2rem 0 !important;
+    }
 }
 
 .carousel-caption {
@@ -226,17 +233,16 @@ a:hover {
 /* services css */
 
 .my-6 {
-    margin: 5em 0;
+    margin: 5em 4rem;
 }
 
 .ser1 {
     background-image: url(./images/service.jpg);
-    height: 25em;
+    height: 29em;
     background-repeat: no-repeat;
     background-position: right;
     background-size: cover;
     border-radius: 12px;
-    margin-left: 10rem;
 
 }
 
@@ -262,10 +268,14 @@ a:hover {
 .ser3>h3 {
     font-size: 2rem;
     font-weight: bolder;
+    margin-right: 10rem;
+    padding: 2rem;
+    display: block !important;
 }
 
 .ser2 {
     margin: 5rem 0;
+    padding: 0 !important;
 }
 
 .ser3 {
@@ -282,6 +292,8 @@ a:hover {
     display: flex;
     margin: 1rem;
     margin-top: 2rem;
+    align-items: center;
+    /* justify-content: space-around; */
 }
 
 .services>div>p {
@@ -290,7 +302,9 @@ a:hover {
     font-weight: 800;
 }
 
-
+.my-6 {
+    margin: 5em 3rem 5em 6rem;
+}
 
 @media(max-width:992px) {
     .serv1 {
@@ -299,6 +313,16 @@ a:hover {
         right: 10px;
         text-align: center;
         text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3);
+    }.my-6 {
+        margin: 5em 3rem;
+    }
+    .ser2>h3,
+    .ser3>h3 {
+        font-size: 2rem;
+        font-weight: bolder;
+        margin-right: 2rem;
+        padding: 2rem;
+        display: block !important;
     }
 }
 
