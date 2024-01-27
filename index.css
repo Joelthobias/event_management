@@ -284,7 +284,7 @@ a:hover {
     letter-spacing: -1px;
 }
 
-.serv1 p {
+.serv1 p ,#reviews p:first-child{
     color: #FFF;
     font-family: "Thea Amelia";
     font-size: 22px;
@@ -329,11 +329,15 @@ a:hover {
         margin: 5em 3rem;
     }
 }
+#reviews p{
+    font-family: monospace;
+}
 
 #reviews>h1 {
     font-size: 2.5em;
     font-weight: 900;
     text-align: center;
+    font-family: monospace;
 }
 
 .card-img-top {
