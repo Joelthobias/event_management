@@ -201,9 +201,10 @@ a:hover {
 }
 
 @media(max-width:512px) {
-    #about .row{
+    #about .row {
         flex-direction: column-reverse;
     }
+
     .services {
         width: 100% !important;
     }
@@ -217,7 +218,17 @@ a:hover {
     }
 
     .ser2 {
-        margin: 3rem 1rem 0 !important;
+        margin: 1rem 1rem 0 !important;
+    }
+
+    .services {
+        display: flex;
+        width: 50%;
+        padding: 16px 28px !important;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 32px;
+        flex-shrink: 0;
     }
 
     .slide-text {
@@ -347,8 +358,18 @@ a:hover {
 
 
 @media(max-width:992px) {
+    .services-main {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
     .ser2 {
         padding-left: 0rem !important;
+    }
+
+    .about-img {
+        margin-left: 0 !important;
+        width: 100% !important;
     }
 
     .about,
@@ -496,12 +517,11 @@ footer {
 }
 
 .about-img {
-    background-image: url('./images/s1rimg1.jpg');
-
+    background-image: url('./images/s1rimg.jpg');
     padding-bottom: 3rem;
     background-repeat: no-repeat;
     padding-left: 1rem;
-    min-height: 22rem;
+    min-height: 21rem;
     border-radius: 8px;
     display: flex;
     flex-direction: column;
@@ -509,6 +529,11 @@ footer {
     justify-content: flex-end;
     align-items: baseline;
     flex-wrap: wrap;
+    background-size: contain;
+    width: 30%;
+    background-size: cover;
+    margin-left: 1rem;
+    margin-top: 2rem;
 }
 
 .about-img h1 {
