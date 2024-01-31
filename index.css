@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https: //fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
 @import url(https://db.onlinewebfonts.com/c/bf22f52cfc674483497479ac321caa1b?family=New+Yorker+W01+Type+Regular);
 @import url(https://db.onlinewebfonts.com/c/f267acac71a038d56276356b4e08626e?family=Thea+Amelia);
 
@@ -201,6 +201,10 @@ a:hover {
 }
 
 @media(max-width:512px) {
+    #reviews>h1 {
+        font-size: 1.8em !important;
+    }
+
     #about .row {
         flex-direction: column-reverse;
     }
@@ -224,7 +228,7 @@ a:hover {
     .services {
         display: flex;
         width: 50%;
-        padding: 16px 28px !important;
+        padding: 16px 0 !important;
         flex-direction: column;
         align-items: flex-start;
         gap: 32px;
@@ -252,13 +256,13 @@ a:hover {
         margin: 5em 0;
     }
 
-    .ser2 div h2,
-    .ser3 div h2 {
-        margin-right: 0rem !important;
-        padding: 2rem 0 !important;
-    }
 }
 
+.ser2 div h2,
+.ser3 div h2 {
+    margin-right: 0rem !important;
+    padding: 1rem 17px !important;
+}
 
 
 .carousel-caption {
@@ -303,7 +307,6 @@ a:hover {
 .serv1 h3 {
     color: white;
     font-size: 2rem;
-    font-family: sans-serif;
     font-weight: 900;
     letter-spacing: -1px;
     font-family: 'Thea Amelia';
@@ -451,7 +454,7 @@ footer {
 .services {
     display: flex;
     width: 50%;
-    padding: 32px 28px;
+    padding: 32px 0;
     flex-direction: column;
     align-items: flex-start;
     gap: 32px;
@@ -460,7 +463,9 @@ footer {
 
 .services h2 {
     color: #212529;
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
+    border-bottom: solid .5px #00000029;
+    width: 100%;
     font-size: 26px;
     font-style: normal;
     font-weight: 700;
@@ -478,7 +483,7 @@ footer {
 
 .services div p {
     color: #212529;
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-size: 14.8px;
     font-style: normal;
     font-weight: bold;
