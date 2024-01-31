@@ -193,8 +193,22 @@ a:hover {
 
 }
 
+@media(max-width:1210px) {
+    .about-img {
+        background-size: cover;
+        background-position: center;
+    }
+}
+
 @media(max-width:512px) {
+    #about .row{
+        flex-direction: column-reverse;
+    }
     .services {
+        width: 100% !important;
+    }
+
+    .about-img {
         width: 100% !important;
     }
 
@@ -313,7 +327,7 @@ a:hover {
 }
 
 .ser2 {
-    padding: 0 !important;
+    padding-left: 8rem;
 }
 
 .ser3 {
@@ -333,7 +347,15 @@ a:hover {
 
 
 @media(max-width:992px) {
+    .ser2 {
+        padding-left: 0rem !important;
+    }
 
+    .about,
+    .services-main {
+        width: 100% !important;
+
+    }
 
     .my-6 {
         margin: 5em 3rem;
@@ -408,7 +430,6 @@ footer {
 .services {
     display: flex;
     width: 50%;
-    height: 385px;
     padding: 32px 28px;
     flex-direction: column;
     align-items: flex-start;
@@ -419,11 +440,10 @@ footer {
 .services h2 {
     color: #212529;
     font-family: Poppins;
-    font-size: 32px;
+    font-size: 26px;
     font-style: normal;
     font-weight: 700;
     line-height: 32.4px;
-    /* 101.25% */
 }
 
 .services div {
@@ -438,29 +458,21 @@ footer {
 .services div p {
     color: #212529;
     font-family: Poppins;
-    font-size: 12.8px;
+    font-size: 14.8px;
     font-style: normal;
-    font-weight: 800;
-    line-height: 19.2px;
-    /* 150% */
+    font-weight: bold;
+    line-height: 1.5rem;
 }
 
 .services div img {
     border-radius: 8px;
     background: url(<path-to-image>), lightgray 50% / contain no-repeat;
-    width: 96px;
-    height: 64px;
+    width: 127px;
+    height: 80px;
     flex-shrink: 0;
     margin: 1rem;
 }
 
-.about-img img {
-    width: 100%;
-    height: auto;
-    /* max-height: 456px; */
-    max-height: 75%;
-    border-radius: 10px;
-}
 
 .about,
 .services-main {
@@ -469,17 +481,46 @@ footer {
     margin-right: auto;
 }
 
+
 .btn-service-btn {
     border-radius: 4px;
-    border: 1px solid #C79955;
+    border: 1px solid hsl(21.95deg 22.4% 64.12%);
     background: #F1DC89;
 }
 
 .about-btn {
-    margin-top: -7rem;
-    margin-left: 2rem;
+    /* margin-top: -7rem; */
+    /* margin-left: 2rem; */
     font-size: 15px;
     background-color: #C79955;
+}
+
+.about-img {
+    background-image: url('./images/s1rimg1.jpg');
+
+    padding-bottom: 3rem;
+    background-repeat: no-repeat;
+    padding-left: 1rem;
+    min-height: 22rem;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: flex-end;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+
+.about-img h1 {
+    text-wrap: balance;
+    color: #fff;
+    text-align: left;
+    padding-left: .5rem;
+    font-family: 'Popins';
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 1.5rem;
 }
 
 @media (max-width:343px) {
