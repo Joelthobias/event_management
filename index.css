@@ -13,7 +13,7 @@
     justify-content: center;
 }
 
-.carousel-caption h2,
+
 .carousel-caption p {
     font-family: "New Yorker W01 Type Regular" !important;
 }
@@ -140,7 +140,7 @@ a:hover {
 .offcanvas-end {
     top: 0;
     left: 0;
-    width: 33%;
+    width: 60%;
     border-left: 1px solid rgba(0, 0, 0, .2);
     transform: translateX(-100%);
 }
